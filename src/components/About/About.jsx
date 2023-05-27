@@ -14,12 +14,17 @@ const About = () => {
         <div className="about_data">
           <Info />
           <p className="about_description">
-            Frontend developer,, I create web pages with UI / UX user interface
+            A big part of being successful in an IT role is the ability to be a
+            self-led learner. As a 20 year old student at Mohammed VI
+            Polytechnic University - 1337 coding school (42 Network), the
+            educational approach is based on peer-learning;
+            A participatory operating style allowing students to unleash their
+            creativity through project-based learning...
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV
             <svg
-              className="button__icon"
+              className="button_icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
