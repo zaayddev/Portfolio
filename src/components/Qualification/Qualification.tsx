@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./qualification.css";
 
 function Qualification() {
-  const [toggleSate, setToggleState] = useState<number>(0);
+  const [toggleSate, setToggleState] = useState<number>(1);
 
   const toggleTab = (index: number) => {
     setToggleState(index);
@@ -52,8 +52,7 @@ function Qualification() {
                 <h3 className="qualification_title">Web Design</h3>
                 <span className="qualification_subtitle">1337 School</span>
                 <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
               </div>
 
@@ -74,8 +73,7 @@ function Qualification() {
                 <h3 className="qualification_title">Frontend developer</h3>
                 <span className="qualification_subtitle">1337 School</span>
                 <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
               </div>
             </div>
@@ -85,8 +83,7 @@ function Qualification() {
                 <h3 className="qualification_title">Web Developer</h3>
                 <span className="qualification_subtitle">1337 School</span>
                 <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
               </div>
 
@@ -107,8 +104,7 @@ function Qualification() {
                 <h3 className="qualification_title">Frontend developer</h3>
                 <span className="qualification_subtitle">1337 School</span>
                 <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
               </div>
             </div>
@@ -126,8 +122,7 @@ function Qualification() {
                 <h3 className="qualification_title">Peb Design</h3>
                 <span className="qualification_subtitle">1337 School</span>
                 <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
               </div>
 
@@ -148,8 +143,7 @@ function Qualification() {
                 <h3 className="qualification_title">Frontend developer</h3>
                 <span className="qualification_subtitle">1337 School</span>
                 <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
               </div>
             </div>
@@ -159,8 +153,7 @@ function Qualification() {
                 <h3 className="qualification_title">Web Developer</h3>
                 <span className="qualification_subtitle">1337 School</span>
                 <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
               </div>
 
@@ -181,8 +174,7 @@ function Qualification() {
                 <h3 className="qualification_title">Frontend developer</h3>
                 <span className="qualification_subtitle">1337 School</span>
                 <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
               </div>
             </div>

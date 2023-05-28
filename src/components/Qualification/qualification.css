@@ -12,7 +12,8 @@
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   color: var(--title-color);
-  margin: 0 var(--mb-1);
+  margin-left: 3rem;
+  margin-right: 3rem;
   cursor: pointer;
 }
 
@@ -105,7 +106,8 @@
   }
 
   .qualification_button {
-    margin: 0 var(--mb-0-75);
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
 
