@@ -1,12 +1,34 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./services.css";
 
 const Services = () => {
-  const [toggleSate, setToggleState] = useState(0);
+  const [toggleSate, setToggleState] = useState<number>(0);
+  const modalRef1 = useRef<HTMLDivElement | null>(null);
+  const modalRef2 = useRef<HTMLDivElement | null>(null);
+  const modalRef3 = useRef<HTMLDivElement | null>(null);
 
   const toggleTab = (index: number) => {
     setToggleState(index);
   };
+
+  const handleClickOutside = (event: MouseEvent) => {
+    if (
+      (modalRef1.current &&
+        !modalRef1.current.contains(event.target as Node)) ||
+      (modalRef2.current &&
+        !modalRef2.current.contains(event.target as Node)) ||
+      (modalRef3.current && !modalRef3.current.contains(event.target as Node))
+    ) {
+      setToggleState(0);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
   return (
     <section className="services section" id="services">
       <h2 className="section_title">Services</h2>
@@ -26,6 +48,7 @@ const Services = () => {
             <i className="uil uil-arrow-right services_button-icon"></i>
           </span>
           <div
+            ref={modalRef1}
             className={
               toggleSate === 1
                 ? "services_modal active-modal"
@@ -79,6 +102,7 @@ const Services = () => {
             <i className="uil uil-arrow-right services_button-icon"></i>
           </span>
           <div
+            ref={modalRef2}
             className={
               toggleSate === 2
                 ? "services_modal active-modal"
@@ -132,6 +156,7 @@ const Services = () => {
             <i className="uil uil-arrow-right services_button-icon"></i>
           </span>
           <div
+            ref={modalRef3}
             className={
               toggleSate === 3
                 ? "services_modal active-modal"
