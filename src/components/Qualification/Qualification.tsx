@@ -14,7 +14,7 @@ function Qualification() {
 
       <div className="qualification_container container">
         <div className="qualification_tabs">
-          <div
+          <li
             className={
               toggleSate === 1
                 ? "qualification_button qualification_active button--flex"
@@ -24,9 +24,9 @@ function Qualification() {
           >
             <i className="uil uil-graduation-cap  qualification_icon"></i>
             Education
-          </div>
+          </li>
 
-          <div
+          <li
             className={
               toggleSate === 2
                 ? "qualification_button qualification_active button--flex"
@@ -36,7 +36,7 @@ function Qualification() {
           >
             <i className="uil uil-briefcase-alt qualification_icon"></i>
             Experience
-          </div>
+          </li>
         </div>
 
         <div className="qualification_sections">

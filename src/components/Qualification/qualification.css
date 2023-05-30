@@ -15,14 +15,32 @@
   margin-left: 3rem;
   margin-right: 3rem;
   cursor: pointer;
+  position: relative;
 }
 
-.qualification_button:hover {
-  color: var(--title-color-dark);
+.qualification_button::before {
+  content: "";
+  background-color: var(--title-color);
+  position: absolute;
+  left: 0;
+  bottom: -0.3rem;
+  height: 3px;
+  width: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.qualification_button:hover::before {
+  content: "";
+  background-color: var(--title-color);
+  position: absolute;
+  left: 0;
+  bottom: -0.3rem;
+  height: 3px;
+  width: 100%;
 }
 
 .qualification_icon {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-right: var(--mb-0-25);
 }
 

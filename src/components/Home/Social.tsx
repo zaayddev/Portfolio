@@ -25,6 +25,14 @@ const Social = () => {
       >
         <i className="uil uil-github-alt"></i>
       </a>
+      <a
+        href="https://github.com/zaayddev"
+        className="home_social-icon"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="bx bxl-discord-alt"></i>
+      </a>
     </div>
   );
 };
