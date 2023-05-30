@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer_container container">
-        <h1 className="footer_title"></h1>
+        <h1 className="footer_title">ZC</h1>
         <div className="footer_social">
           <a
             href="https://twitter.com/zaaay_d"

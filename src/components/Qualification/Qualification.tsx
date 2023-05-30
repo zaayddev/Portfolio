@@ -49,10 +49,12 @@ function Qualification() {
           >
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Web Design</h3>
-                <span className="qualification_subtitle">1337 School</span>
+                <h3 className="qualification_title">BACCALAUREATE DEGREE</h3>
+                <span className="qualification_subtitle">
+                  La Victoire School
+                </span>
                 <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
                 </div>
               </div>
 
@@ -70,38 +72,7 @@ function Qualification() {
                 <span className="qualification_line"></span>
               </div>
               <div>
-                <h3 className="qualification_title">Frontend developer</h3>
-                <span className="qualification_subtitle">1337 School</span>
-                <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification_data">
-              <div>
-                <h3 className="qualification_title">Web Developer</h3>
-                <span className="qualification_subtitle">1337 School</span>
-                <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-            </div>
-
-            <div className="qualification_data">
-              <div></div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-              <div>
-                <h3 className="qualification_title">Frontend developer</h3>
+                <h3 className="qualification_title">COMPUTER SCIENCE</h3>
                 <span className="qualification_subtitle">1337 School</span>
                 <div className="qualification_calendar">
                   <i className="uil uil-calendar-alt"></i> 2021 - Present
@@ -119,63 +90,18 @@ function Qualification() {
           >
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Peb Design</h3>
-                <span className="qualification_subtitle">1337 School</span>
+                <h3 className="qualification_title">
+                  Front-End Web Developer Intern
+                </h3>
+                <span className="qualification_subtitle">WebMastery</span>
                 <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022 (3 months)
                 </div>
               </div>
 
               <div>
                 <span className="qualification_rounder"></span>
                 <span className="qualification_line"></span>
-              </div>
-            </div>
-
-            <div className="qualification_data">
-              <div></div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-              <div>
-                <h3 className="qualification_title">Frontend developer</h3>
-                <span className="qualification_subtitle">1337 School</span>
-                <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification_data">
-              <div>
-                <h3 className="qualification_title">Web Developer</h3>
-                <span className="qualification_subtitle">1337 School</span>
-                <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-            </div>
-
-            <div className="qualification_data">
-              <div></div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-              <div>
-                <h3 className="qualification_title">Frontend developer</h3>
-                <span className="qualification_subtitle">1337 School</span>
-                <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
-                </div>
               </div>
             </div>
           </div>
